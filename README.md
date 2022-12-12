@@ -31,7 +31,7 @@ Features:
 Endpoints example:
 
 Upload file:
-```http request
+```
 POST contabo/upload
 
 BODY (form-data):
@@ -41,21 +41,21 @@ BODY (form-data):
 ```
 ---
 Download file:
-```http request
+```
 GET contabo/download?bucket={my-bucket}&location={location_on_object_storage}
 ```
 ---
 Delete file:
-```http request
+```
 DELETE contabo/delete?bucket={my-bucket}&location={location_on_object_storage}
 ```
 ---
 List files:
-```http request
+```
 GET contabo/list/{my-bucket}?simple={true/false}
 ```
 ---
 List buckets:
-```http request
+```
 GET contabo/buckets
 ```
